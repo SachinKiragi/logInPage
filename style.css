@@ -66,16 +66,17 @@
 
 #submit-btn{
     background-color: var(--button-color);
-    width: fit-content;
+    width: 6rem;
     margin: auto;
-    padding: 0.6rem 1.6rem;
+    padding: 0.6rem 0;
     color: var(--white-color);
     border-radius: 0.4rem;
     font-weight: 700;
-    font-size: calc(var(--medium-size) - 0.15rem);
+    font-size: calc(var(--medium-size) - 0.13rem);
     cursor: pointer;
     transition: color .2s ease-in-out, outline .2s ease-in-out, background-color .2s ease-in-out;
     letter-spacing: 0.07rem;
+    text-align: center;
 }
 
 #submit-btn:hover{
@@ -97,4 +98,11 @@ p a{
 
 p a:hover{
     font-weight: 600;
+}
+
+.eye{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.8rem;
+    font-size: 1.2rem;
 }
